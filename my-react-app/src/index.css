@@ -1,0 +1,17 @@
+.card{
+  border: 1px solid rgb(189, 189, 189);
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px rgb(120, 120, 120);
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+  max-width: 250px;
+}
+
+.profPic{
+  height: 240px;
+  width: 240px;
+  border-radius: 50%;
+  border: 2px solid rgb(126, 0, 252);
+}
+

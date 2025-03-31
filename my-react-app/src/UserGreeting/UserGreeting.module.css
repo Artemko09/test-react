@@ -1,0 +1,19 @@
+.isLoggedIn{
+    font-size: 1em;
+    background-color: blueviolet;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 0;
+    margin-top: 10px;
+}
+
+.NotisLoggedIn{
+    font-size: 1em;
+    background-color: rgb(255, 128, 0);
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 0;
+    margin-top: 10px;
+}

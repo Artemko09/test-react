@@ -1,0 +1,18 @@
+.listCategory{
+    font-size: 1.5em;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 10px;
+    text-align: center;
+    border: 3px solid;
+    border-radius: 5px;
+    background-color: rgb(255, 136, 0);
+}
+
+.listOfItems li{
+    font-size: 1em;
+    list-style: none;
+    color: black;
+    text-align: center;
+    margin: 0;
+}
