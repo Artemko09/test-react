@@ -3,6 +3,10 @@ import Button from "./Button/Button"
 import Student from "./Student/Student"
 import UserGreeting from "./UserGreeting/UserGreeting"
 import List from "./List/List"
+import ButtonNumber2 from "./Button/ButtonNumber2"
+import ProfilePicture from "./ProfPic/ProfilePicture"
+import Counter from "./Counter/Counter"
+import RealCounter from "./Counter/RealCounter"
 
 function App(){
 
@@ -18,6 +22,7 @@ function App(){
         <>
             <Card></Card>
             <Button></Button>
+            <ButtonNumber2></ButtonNumber2>
             <Student name = 'David' age = {19} isStudent = {true}></Student>
             <Student name = 'Lucyna' age = {21} isStudent = {false}></Student>
             <Student/>
@@ -27,6 +32,11 @@ function App(){
 
             {fruits.length > 0 ? <List items = {fruits} category = "Fruits"></List> : null}
             {vegetables.length > 0 ? <List ></List>: null}
+
+            <ProfilePicture></ProfilePicture>
+
+            <Counter></Counter>
+            <RealCounter></RealCounter>
         </>
     )    
 }
