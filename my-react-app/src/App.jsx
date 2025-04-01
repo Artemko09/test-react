@@ -13,6 +13,7 @@ import Object from "./Object/Object"
 import Arrays from "./Arrays/Arrays"
 import ArraysOfObjects from "./ArraysOfObjects/ArraysOfObjects"
 import ToDoList from "./ToDo-List/ToDoList"
+import UseEffect from "./UseEffect/UseEffect"
 
 function App(){
 
@@ -56,6 +57,8 @@ function App(){
             <ArraysOfObjects></ArraysOfObjects>
             <br></br>
             <ToDoList></ToDoList>
+            <br></br>
+            <UseEffect></UseEffect>
         </>
     )    
 }
