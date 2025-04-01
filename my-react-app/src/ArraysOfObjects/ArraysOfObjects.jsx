@@ -38,7 +38,7 @@ function ArraysOfObjects(){
     return(<div>
                 <h2>List of Car Objects</h2>
                 <ul>
-                    {cars.map((car, i) => <li key={i} onClick={() => handleRemoveCar(index)}>
+                    {cars.map((car, i) => <li key={i} onClick={() => handleRemoveCar(i)}>
                         {car.year} {car.make} {car.model}
                     </li>)}
                 </ul>

@@ -12,6 +12,7 @@ import ColorPicker from "./ColorPicker/ColorPicker"
 import Object from "./Object/Object"
 import Arrays from "./Arrays/Arrays"
 import ArraysOfObjects from "./ArraysOfObjects/ArraysOfObjects"
+import ToDoList from "./ToDo-List/ToDoList"
 
 function App(){
 
@@ -53,6 +54,8 @@ function App(){
             <Arrays></Arrays>
             <br></br>
             <ArraysOfObjects></ArraysOfObjects>
+            <br></br>
+            <ToDoList></ToDoList>
         </>
     )    
 }
