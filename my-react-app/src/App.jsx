@@ -7,6 +7,11 @@ import ButtonNumber2 from "./Button/ButtonNumber2"
 import ProfilePicture from "./ProfPic/ProfilePicture"
 import Counter from "./Counter/Counter"
 import RealCounter from "./Counter/RealCounter"
+import OnChange from "./OnChange/OnChange"
+import ColorPicker from "./ColorPicker/ColorPicker"
+import Object from "./Object/Object"
+import Arrays from "./Arrays/Arrays"
+import ArraysOfObjects from "./ArraysOfObjects/ArraysOfObjects"
 
 function App(){
 
@@ -26,7 +31,7 @@ function App(){
             <Student name = 'David' age = {19} isStudent = {true}></Student>
             <Student name = 'Lucyna' age = {21} isStudent = {false}></Student>
             <Student/>
-
+            <br></br>
             <UserGreeting isLoggedIn = {false} username = 'Lucy'></UserGreeting>
             <UserGreeting isLoggedIn = {true}></UserGreeting>
 
@@ -34,9 +39,20 @@ function App(){
             {vegetables.length > 0 ? <List ></List>: null}
 
             <ProfilePicture></ProfilePicture>
-
+            <br></br>
             <Counter></Counter>
+            <br></br>
             <RealCounter></RealCounter>
+            <br></br>
+            <OnChange></OnChange>
+            <br></br>
+            <ColorPicker></ColorPicker>
+            <br></br>
+            <Object></Object>
+            <br></br>
+            <Arrays></Arrays>
+            <br></br>
+            <ArraysOfObjects></ArraysOfObjects>
         </>
     )    
 }

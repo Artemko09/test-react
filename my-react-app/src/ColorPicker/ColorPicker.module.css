@@ -1,0 +1,35 @@
+.display{
+    border: 2px solid rgb(130, 130, 130);
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+.pickColor{
+    border-radius: 10px;
+    width: 200px;
+    height: 40px;
+    border: 1px solid black;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    align-items: center;
+}
+
+.container p{
+    font-weight: bold;
+    font-size: 20px;
+}
